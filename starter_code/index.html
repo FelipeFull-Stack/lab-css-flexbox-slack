@@ -17,11 +17,11 @@
 </head>
 
 <body>
-  <nav id="nav">
-    <div class="div1">
+  <nav id="nav"><!--Barra de Navegação TOPO-->
+    <div class="div1"> <!--Div para dividir a Navegação em 2 - ESQUERDA e CIMA-->
       <img class="logo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul class="lista1">
+      <ul class="lista1"><!--Lista Menu - CIMA (Não aparece no modo Mobile)-->
         <li>
           <a href="#">Product</a>
         </li>
@@ -37,16 +37,16 @@
       </ul>
     </div>
 
-    <div class="div2">
-      <button class="botao">
+    <div class="div2"><!--div dos Botões - DIREITA e CIMA-->
+      <button class="botao"><!--Botão de Pesquisa-->
         <img class="lupa" src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button class="botao">
+      <button class="botao"><!--Botão de Menu-->
         <img class="menu" src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
-      <ul hidden class="lista2">
+      <ul hidden class="lista2"><!--Conteudo Texto dos Botões (Não aparece no modo Mobile)-->
         <li>
           <a href="#">Sign in</a>
         </li>
@@ -57,33 +57,33 @@
     </div>
   </nav>
 
-  <header id="header">
+  <header id="header"><!--Introdução do Cabeçalho (titulo e Botoes)-->
     <div class="div3">
-      <h1>Great teamwork starts with a digital HQ</h1>
+      <h1>Great teamwork starts with a digital HQ</h1><!--Titulo Principal-->
 
       <p><b>Slack is free to try</b> for as long as you'd like.</p>
 
-      <div>
-        <button class="buttonEmail">Sign up with email</button>
+      <div><!--Div Divisor de Botões-->
+        <button class="buttonEmail">Sign up with email</button><!--Botão de Sign Email-->
 
         <button class="buttonGoogle">
-          <img src="./images/logo-google.png" alt="Google logo" />
+          <img src="./images/logo-google.png" alt="Google logo" /><!--Botão de Sign Google-->
           <span>Sign up with Google</span>
         </button>
       </div>
 
     </div>
 
-    <div class="div4">
+    <div class="div4"><!--Div com Background IMG-->
       
     </div>
   </header>
 
-  <main id="main">
-    <section class="sec1">
+  <main id="main"><!--Corpo da Pagina-->
+    <section class="sec1"><!--Primeira Section - Logos-->
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div><!--Conglomerado de Imagens-->
         <img class="img1" src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img class="img2" src="./images/logo-nasa.png" alt="NASA logo" />
         <img class="img3" src="./images/logo-uber.png" alt="Uber logo" />
@@ -94,7 +94,7 @@
 
     </section>
 
-    <section class="sec2">
+    <section class="sec2"><!--Segunda Section - -->
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
@@ -108,7 +108,7 @@
         </p>
 
         <a href="#">
-          <span>Learn more about channels --></span>
+          <span class="spanSeta">Learn more about channels<img class="imgSeta" src="./images/icon-arrow-right.png"/></span>
         </a>
       </div>
     </section>
@@ -127,7 +127,7 @@
         </p>
 
         <a href="#">
-          <span>Learn more about flexible communication</span>
+          <span class="spanSeta">Learn more about flexible communication<img class="imgSeta" src="./images/icon-arrow-right.png"/></span>
         </a>
       </div>
     </section>
@@ -145,7 +145,7 @@
         </p>
 
         <a href="#">
-          <span>Learn more about the Slack platform</span>
+          <span class="spanSeta">Learn more about the Slack platform <img class="imgSeta" src="./images/icon-arrow-right.png"/></span>
         </a>
       </div>
     </section>
@@ -244,8 +244,8 @@
       <li>Terms</li>
       <li>Cookie Preferences</li>
       <li>Contact Us</li>
-      <li id="especial1">Change Region</li>
-      <li id="especial2">Download Slack</li>
+      <li class="imgEspecial"><img src="./images/icon-region.png"/> Region</li>
+      <li class="imgEspecial" id="especial2"><img src="./images/icon-download.png"/> Download Slack</li>
     </ul>
 
     <ul class="imgList">
